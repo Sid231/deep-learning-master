@@ -1,18 +1,6 @@
 {
     "tests": [
         {
-            "traceback": "AssertionError: False is not true\n",
-            "rubric_item_id": 5581,
-            "result": "F",
-            "description": "The number of hidden nodes is reasonable"
-        },
-        {
-            "traceback": "AssertionError: False is not true\n",
-            "rubric_item_id": 7965,
-            "result": "F",
-            "description": "Produces good results when running the network on full data"
-        },
-        {
             "traceback": "",
             "rubric_item_id": 5574,
             "result": ".",
@@ -38,6 +26,12 @@
         },
         {
             "traceback": "",
+            "rubric_item_id": 5581,
+            "result": ".",
+            "description": "The number of hidden nodes is reasonable"
+        },
+        {
+            "traceback": "",
             "rubric_item_id": 5582,
             "result": ".",
             "description": "The learning_rate is reasonable"
@@ -47,6 +41,12 @@
             "rubric_item_id": 7964,
             "result": ".",
             "description": "The number of output nodes is correct"
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": 7965,
+            "result": ".",
+            "description": "Produces good results when running the network on full data"
         },
         {
             "traceback": "",
@@ -69,7 +69,7 @@
     ],
     "critiques": {
         "700": {
-            "general_comment": null,
+            "general_comment": "Great job on implementing a successful neural network!  As we can see, the model overestimates bike ridership in December because it hasn't had sufficient holiday season training examples.  The predictions generally are quite accurate, though!",
             "rubric_items": {
                 "5570": {
                     "autograded": false,
@@ -108,8 +108,8 @@
                 },
                 "5581": {
                     "autograded": false,
-                    "result": "failed",
-                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: The number of hidden nodes is reasonable\n----------------------------------------------------------------------\nAssertionError: False is not true\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nThe number of hidden nodes is reasonable                               F\n\n\n```"
+                    "result": "passed",
+                    "observation": "Correct!"
                 },
                 "5582": {
                     "autograded": false,
@@ -123,8 +123,8 @@
                 },
                 "7965": {
                     "autograded": false,
-                    "result": "failed",
-                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Produces good results when running the network on full data\n----------------------------------------------------------------------\nAssertionError: False is not true\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nProduces good results when running the network on full data            F\n\n\n```"
+                    "result": "passed",
+                    "observation": "Correct!"
                 }
             }
         }
